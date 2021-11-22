@@ -151,6 +151,7 @@ public class functions {
     public static void getRunnerTime(int[][]array,int Quantity) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
+            sum = 0;
             for (int j = 1; j < array[i].length; j++) {
                 sum += array[i][j];
               }
@@ -162,6 +163,7 @@ public class functions {
     public static void getAvgMinPerKm(int[][]array, String category){
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
+            sum = 0;
             for (int j = 1; j < array[i].length; j++) {
                 sum += array[i][j];
               }
